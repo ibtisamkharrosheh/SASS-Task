@@ -1,0 +1,24 @@
+$primary-color: #489cc1;
+$secondary-color: #49b5e4;
+$text-color: #ffffff;
+
+.add-btn {
+    margin-left: 5px;
+    padding: 20px !important;
+    font-size: 20px !important;
+}
+
+.ghost-btn {
+    border: none;
+    color: $secondary-color;
+    background-color: inherit;
+    transform: rotateY(180deg);
+}
+
+.primary-btn {
+    background-color: $primary-color;
+    color: $text-color;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}

@@ -21,9 +21,10 @@
         background-color: #f0f8fe;
         color: var(--primary-text-color);
     }
-
-    &:nth-child(7) {
+    &.last-item {
         background-color: var(--white-bg);
         color: var(--primary-text-color);
     }
+
 }
+
